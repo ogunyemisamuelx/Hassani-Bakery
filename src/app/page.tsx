@@ -10,14 +10,11 @@ import {
   Twitter,
   ChevronLeft,
   ChevronRight,
-  Play,
-  Pause,
   Quote,
 } from "lucide-react";
 
 const Page = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
-  const [isVideoPlaying, setIsVideoPlaying] = useState(true);
   const [animatedStats, setAnimatedStats] = useState({
     followers: 0,
     products: 0,
@@ -355,7 +352,7 @@ const Page = () => {
                 className="flex transition-transform duration-500 ease-in-out"
                 style={{ transform: `translateX(-${currentSlide * 100}%)` }}
               >
-                {slides.map((slide, index) => (
+                {slides.map((slide) => (
                   <div
                     key={slide.id}
                     className="min-w-full h-96 bg-gradient-to-br from-blue-700 to-purple-500 flex items-center justify-center relative"
