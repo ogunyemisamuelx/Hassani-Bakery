@@ -22,13 +22,13 @@ const Page = () => {
     years: 0,
   });
 
-  // Sample data - you'll replace with actual content
+  // Sample data - you ll replace with actual content
   const slides = [
     {
       id: 1,
       title: "Premium Hassani Bread",
       description: "Freshly baked daily with the finest ingredients",
-      image: "/coconut.png", // You'll add actual images
+      image: "/coconut.png", // You ll add actual images
     },
     {
       id: 2,
@@ -62,7 +62,7 @@ const Page = () => {
       id: 2,
       name: "Emmanuel Nwosu",
       rating: 5,
-      text: "I've been buying from Hassani Bakery for months. The quality is consistent and the taste is unmatched!",
+      text: "I&apos;ve been buying from Hassani Bakery for months. The quality is consistent and the taste is unmatched!",
       avatar: "/images/avatar-2.jpg",
     },
     {
@@ -76,14 +76,14 @@ const Page = () => {
       id: 4,
       name: "David Okoro",
       rating: 5,
-      text: "The chocolate bread is my family's favorite! Thank you Hassani for bringing joy to our breakfast table.",
+      text: "The chocolate bread is my family&apos;s favorite! Thank you Hassani for bringing joy to our breakfast table.",
       avatar: "/images/avatar-4.jpg",
     },
     {
       id: 5,
       name: "Sarah Ugochukwu",
       rating: 5,
-      text: "Hassani Bakery's bread has become a staple in our home. Fresh, delicious, and always perfectly baked!",
+      text: "Hassani Bakery&apos;s bread has become a staple in our home. Fresh, delicious, and always perfectly baked!",
       avatar: "/images/avatar-5.jpg",
     },
     {
@@ -217,8 +217,8 @@ const Page = () => {
               Hassani Bakery
             </h1>
             <p className="text-xl md:text-2xl mb-8 opacity-90 animate-fade-in-up delay-300">
-              From Artist to Baker - Crafting Port Harcourt's Finest Bread Since
-              Day One
+              From Artist to Baker - Crafting Port Harcourt&apos;s Finest Bread
+              Since Day One
             </p>
             <p className="text-lg mb-12 opacity-80 animate-fade-in-up delay-500">
               Experience the premium taste that has captured the hearts of
@@ -268,8 +268,9 @@ const Page = () => {
             <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-500 mx-auto mb-8"></div>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto animate-fade-in-up delay-300">
               What started as an artistic journey transformed into a culinary
-              masterpiece. Ric Hassani didn't just open a bakery - he created a
-              movement that's redefining bread culture in Port Harcourt.
+              masterpiece. Ric Hassani didn&apos;t just open a bakery - he
+              created a movement that&apos;s redefining bread culture in Port
+              Harcourt.
             </p>
           </div>
 
@@ -293,9 +294,10 @@ const Page = () => {
                 </h3>
                 <p className="text-gray-600 leading-relaxed">
                   What started as a personal venture quickly became Port
-                  Harcourt's most talked-about bakery. Our commitment to quality
-                  and authentic flavors has earned us thousands of loyal
-                  customers who can't start their day without Hassani bread.
+                  Harcourt&apos;s most talked-about bakery. Our commitment to
+                  quality and authentic flavors has earned us thousands of loyal
+                  customers who can&apos;t start their day without Hassani
+                  bread.
                 </p>
               </div>
             </div>
@@ -447,8 +449,8 @@ const Page = () => {
             <h2 className="text-5xl font-bold mb-6">What Our Customers Say</h2>
             <div className="w-24 h-1 bg-gradient-to-r from-yellow-400 to-orange-400 mx-auto mb-8"></div>
             <p className="text-xl opacity-90 max-w-2xl mx-auto">
-              Don't just take our word for it - hear from the thousands who have
-              made Hassani Bakery their daily choice
+              Don&apos;t just take our word for it - hear from the thousands who
+              have made Hassani Bakery their daily choice
             </p>
           </div>
 
@@ -568,7 +570,7 @@ const Page = () => {
 
             <div
               className="bg-gradient-to-br from-gray-100 to-gray-200 rounded-2xl h-96 bg-cover bg-center relative overflow-hidden flex justify-center items-center"
-              style={{ backgroundImage: `url('/address.png')` }}
+              style={{ backgroundImage: `url("/address.png")` }}
             >
               <div className="text-center">
                 <MapPin size={64} className="mx-auto mb-6 text-blue-600" />
